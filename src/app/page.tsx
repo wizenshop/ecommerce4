@@ -1,9 +1,6 @@
-import Image from 'next/image'
-import styles from './page.module.css'
+import Image from "next/image";
+
 
 export default function Home() {
-  return (
-   <h1>Agora vai dar Cert</h1>
-   
-  )
+  return <h1>Agora vai dar Certo</h1>;
 }

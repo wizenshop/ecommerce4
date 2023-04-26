@@ -1,8 +1,8 @@
 "use client";
 import { MobileMenu } from "./MobileMenu";
-import { DesktopMenu } from "./DesktopMenu";
+//import { DesktopMenu } from "./DesktopMenu";
 import { BottomNavigation } from "./BottomNavigation";
-
+// <DesktopMenu />
 //import { useMediaQuery } from "react-responsive";
 
 /**
@@ -20,7 +20,7 @@ export function Header() {
 
   return (
     <>
-     <DesktopMenu />
+    
     </>
   );
 }
