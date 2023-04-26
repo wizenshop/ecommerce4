@@ -1,5 +1,4 @@
-
-import { globalStyles } from "../styles/global";
+import StitchesRegistry from "./registry";
 import { ButtonWhatsapp } from "../components/ButtonWhatsapp/";
 import { Header } from "@/components/Header";
 //import { Footer } from "@/components/Footer";
@@ -11,8 +10,6 @@ export const metadata = {
   },
 };
 
-globalStyles();
-
 export default function RootLayout({
   children,
 }: {
@@ -21,11 +18,25 @@ export default function RootLayout({
   return (
     <html lang="pt-br">
       <body>
-        {children}
- 
-        <ButtonWhatsapp />
-       <Header/>
+        <StitchesRegistry>
+          {children}
+          <ButtonWhatsapp />
+          <Header />
+        </StitchesRegistry>
       </body>
+    </html>
+  );
+}
+
+export default async function RootLayout({
+  children,
+}: {
+  children: React.ReactNode;
+}) {
+  return (
+    <html>
+      <head />
+      <body></body>
     </html>
   );
 }

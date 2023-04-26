@@ -11,6 +11,9 @@ export const {
   createTheme,
 } = createStitches({
   theme: {
+    fonts: {
+      system: "system-ui",
+    },
     colors: {
       colorDefaultMenuIcon: "rgba(57, 57, 57, 0.87)",
       colorActiveMenuIcon: "#028cb8",
