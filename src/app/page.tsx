@@ -3,6 +3,7 @@ import styles from './page.module.css'
 
 export default function Home() {
   return (
-   <h1>Agora vai dar Certooooo</h1>
+   <h1>Agora vai dar Cert</h1>
+   
   )
 }
