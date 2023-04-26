@@ -21,7 +21,7 @@ const monthNames = [
 ];
 const currentMonth = monthNames[new Date().getMonth()];
 
-export default function DesktopMenu({}) {
+export  function DesktopMenu({}) {
   return (
     <Style.NavigationMenuRoot>
       <Style.NavigationMenuList>

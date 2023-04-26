@@ -27,16 +27,3 @@ export default function RootLayout({
     </html>
   );
 }
-
-export default async function RootLayout({
-  children,
-}: {
-  children: React.ReactNode;
-}) {
-  return (
-    <html>
-      <head />
-      <body></body>
-    </html>
-  );
-}
